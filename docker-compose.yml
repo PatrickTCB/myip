@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  myip:
+    image: localhost:5000/myip:latest
+    restart: always
+    ports:
+      - "127.0.0.1:8019:80/tcp"
